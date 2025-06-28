@@ -1,0 +1,6 @@
+neon db :
+
+project name: incident-report-app
+
+postgree v: 16
+

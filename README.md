@@ -1,6 +1,4 @@
 <div align="center">
- 
-
   <div>
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
@@ -10,38 +8,59 @@
 
   <h3 align="center">Incident Report Making App</h3>
 
-   <div align="center">
-     A secure platform for anonymous incident reporting
-    </div>
+  <div align="center">
+    A secure platform for anonymous incident reporting
+  </div>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## 📋 Table of Contents
 
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Environment Setup](#environment)
-6. 🚀 [Deployment](#deployment)
+5. 🕸️ [Environment Setup](#environment-setup)
+6. 🖼️ [Screenshots](#screenshots)
+7. 🚀 [Deployment](#deployment)
+8. 🤝 [Contributing](#contributing)
+9. 📝 [License](#license)
 
-## <a name="introduction">🤖 Introduction</a>
+---
+
+## 🤖 Introduction
 
 This is a state-of-the-art anonymous reporting system built with Next.js 14, designed to provide a secure platform for reporting incidents while maintaining complete anonymity.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+---
 
-- Next.js 14
-- TypeScript
-- Prisma with Neon Database
-- NextAuth.js for Authentication
-- Tailwind CSS
-- React Hook Form
-- GeminiAI
-- BCrypt for Password Encryption
+## ⚙️ Tech Stack
 
-## <a name="quick-start">🤸 Quick Start</a>
+- **Next.js 14**
+- **TypeScript**
+- **Prisma with Neon Database**
+- **NextAuth.js** for Authentication
+- **Tailwind CSS**
+- **React Hook Form**
+- **GeminiAI**
+- **BCrypt** for Password Encryption
 
-**Prerequisites**
+---
+
+## 🔋 Features
+
+- 🔒 Anonymous incident reporting
+- 🧩 Role-based access control
+- 🔐 Secure authentication using NextAuth.js
+- 🛡️ Encrypted password storage with BCrypt
+- 🗺️ Map integration via Mapbox API
+- 🤖 AI-based incident suggestions using GeminiAI
+- 🧾 Admin dashboard for review and approval
+
+---
+
+## 🤸 Quick Start
+
+### Prerequisites
 
 Make sure you have the following installed:
 
@@ -49,7 +68,7 @@ Make sure you have the following installed:
 - [npm](https://www.npmjs.com/)
 - [Git](https://git-scm.com/)
 
-**Installation**
+### Installation
 
 ```bash
 # Clone the repository
@@ -67,23 +86,52 @@ npx prisma db push
 npm run dev
 ```
 
-## <a name="environment">🕸️ Environment Setup</a>
+---
+
+## 🕸️ Environment Setup
 
 Create a `.env` file in the root directory with the following variables:
 
 ```env
-
 NEXT_PUBLIC_MAPBOX_API_KEY=your-mapbox-key
 DATABASE_URL=postgresql:your-database-url
 NEXTAUTH_SECRET="your-secret-key"
 NEXTAUTH_URL="http://localhost:3000/api/auth"
 GEMINI_API_KEY=your-gemini-api-key
 NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your-mapbox-access-api-key
-
-
 ```
 
-## <a name="deployment">🚀 Deployment</a>
+---
+
+## 🖼️ Screenshots
+
+Below are some key screenshots of the application interface:
+
+<p align="center">
+  <img src="https://github.com/onkarshirke/incident-report-maker-app/blob/main/public/reporta.png" alt="Screenshot A" width="800" />
+</p>
+<p align="center">
+  <img src="https://github.com/onkarshirke/incident-report-maker-app/blob/main/public/reportb.png" alt="Screenshot B" width="800" />
+</p>
+<p align="center">
+  <img src="https://github.com/onkarshirke/incident-report-maker-app/blob/main/public/reportc.png" alt="Screenshot C" width="800" />
+</p>
+<p align="center">
+  <img src="https://github.com/onkarshirke/incident-report-maker-app/blob/main/public/reportd.png" alt="Screenshot D" width="800" />
+</p>
+<p align="center">
+  <img src="https://github.com/onkarshirke/incident-report-maker-app/blob/main/public/reporte.png" alt="Screenshot E" width="800" />
+</p>
+<p align="center">
+  <img src="https://github.com/onkarshirke/incident-report-maker-app/blob/main/public/reportf.png" alt="Screenshot F" width="800" />
+</p>
+<p align="center">
+  <img src="https://github.com/onkarshirke/incident-report-maker-app/blob/main/public/reportg.png" alt="Screenshot G" width="800" />
+</p>
+
+---
+
+## 🚀 Deployment
 
 The application can be easily deployed on [Vercel](https://vercel.com):
 
@@ -92,9 +140,13 @@ The application can be easily deployed on [Vercel](https://vercel.com):
 3. Configure the environment variables
 4. Deploy!
 
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) first.
+
+---
 
 ## 📝 License
 

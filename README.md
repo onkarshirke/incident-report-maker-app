@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/-Prisma-black?style=for-the-badge&logoColor=white&logo=prisma&color=2D3748" alt="prisma" />
   </div>
 
-  <h3 align="center">Anonymous Incident Reporting App</h3>
+  <h3 align="center">Incident Report Making App</h3>
 
    <div align="center">
      A secure platform for anonymous incident reporting

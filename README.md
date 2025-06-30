@@ -131,17 +131,6 @@ Below are some key screenshots of the application interface:
 
 ---
 
-## 🚀 Deployment
-
-The application can be easily deployed on [Vercel](https://vercel.com):
-
-1. Push your code to a Git repository
-2. Connect your repository to Vercel
-3. Configure the environment variables
-4. Deploy!
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) first.
@@ -151,3 +140,16 @@ Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTIN
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📬 Contact
+
+--
+
+**Onkar Shirke**
+
+* GitHub: [onkarshirke](https://github.com/onkarshirke)
+* Email: [your-email@example.com](mailto:your-email@example.com)
+
+---
+*Developed with ❤️ by Onkar Shirke*
+

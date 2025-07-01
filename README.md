@@ -146,7 +146,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Onkar Shirke**
 
 * GitHub: [onkarshirke](https://github.com/onkarshirke)
-* Email: [your-email@example.com](mailto:your-email@example.com)
+* Email: [onkarworks24by7@Gmail.com@gmail.com](mailto:onkarworks24by7@gmail.com)
 
 ---
 *Developed with ❤️ by Onkar Shirke*
